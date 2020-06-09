@@ -29,7 +29,7 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
                  $sender->sendMessage("You have recieved an Extra Heart Crystal");
                  }
               }else{
-                $sender->sendMessage("No permission");
+                $sender->sendMessage("No permission for this command.");
               }
            }
     return true;
