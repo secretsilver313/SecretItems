@@ -2,4 +2,9 @@ name: CustomItemsSB
 version: 1.0.0
 api: 3.0.0
 author: secretsiver313
-main:
+description: "Custom Items
+commands:
+  hc:
+    default: op
+    permission: hc.use
+    description: Gives you a Heart Crystal
